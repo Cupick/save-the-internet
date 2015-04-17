@@ -1,0 +1,24 @@
+div.save-the-internet {
+    z-index: 99999;
+    position: fixed;
+    top: 21%;
+    left: -19px;
+}
+
+@media (max-width: 768px) and (min-width: 480px) {
+    div.save-the-internet {
+        top: 16%;
+    }
+    div.save-the-internet img {
+        height: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    div.save-the-internet {
+        top: 14%;
+    }
+    div.save-the-internet img {
+        height: 46px;
+    }
+}
